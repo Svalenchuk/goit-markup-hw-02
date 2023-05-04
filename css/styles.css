@@ -9,6 +9,8 @@
   
   body {
     font-family: var(--primary-font-family);
+    color: var(--secondary-text-main);
+    background-color: var(--text-hero-footer);
   }
   
   .list {
