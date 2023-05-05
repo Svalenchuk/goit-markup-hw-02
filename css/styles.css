@@ -25,11 +25,11 @@
   
   .logo {
     font-family: var(--secondary-font-family);
-    font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    text-transform: uppercase;
   }
   
   .accentlogo {
@@ -37,7 +37,7 @@
   }
   
   .menu-list-item {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -46,7 +46,7 @@
   
   .menu-list-item:hover,
   .menu-list-item:focus {
-    color: var(--accent-color);
+    color: #404bbf;
   }
   
   .current {
@@ -83,9 +83,9 @@
   
   .modal-btn {
     font-family: var(--primary-font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--text-hero-footer);
@@ -94,6 +94,7 @@
   
   .modal-btn:hover,
   .modal-btn:focus {
+    background-color: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
@@ -124,6 +125,7 @@
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-text-main);
   }
   
@@ -136,11 +138,12 @@
   /*========Сотрудники==========*/
   
   .user-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-text-main);
   }
   
