@@ -25,6 +25,7 @@
   
   .logo {
     font-family: var(--secondary-font-family);
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -52,17 +53,22 @@
   .current {
     color: var(--accent-color);
   }
+
+  .contacts{
+    font-style: normal
+  }
   
   .contact-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-main);
+    list-style: none
   }
   
   .contact-item:hover,
   .contact-item:focus {
-    color: var(--accent-color);
+    color: #404bbf;
   }
   
   /*====HERO=====*/
@@ -176,7 +182,7 @@
   /*=======Контакты=========*/
   
   .accentlogo-contacts {
-    color: var(--text-hero-footer);
+   color: #f4f4fd;
   }
   
   .contact-footer {
