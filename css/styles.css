@@ -50,10 +50,7 @@
     color: #404bbf;
   }
   
-  .current {
-    color: var(--accent-color);
-  }
-
+  
   .contacts{
     font-style: normal
   }
