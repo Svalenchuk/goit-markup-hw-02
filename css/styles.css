@@ -51,20 +51,20 @@
   }
   
   
-  .contacts{
-    font-style: normal
-  }
-  
-  .contact-item {
+  .contact {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-main);
-    list-style: none
+        
+  }
+
+  .contact-link {
+     color: var(--secondary-text-main);
   }
   
-  .contact-item:hover,
-  .contact-item:focus {
+  .contact-link:hover,
+  .contact-link:focus {
     color: #404bbf;
   }
   
