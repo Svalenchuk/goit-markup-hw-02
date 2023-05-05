@@ -232,7 +232,7 @@
     cursor: pointer;
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
-    color: var(--accent-color);
+    color: #4d5ae5;
   }
   
   .modal-btn-portfolio:hover,
