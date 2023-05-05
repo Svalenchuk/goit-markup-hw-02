@@ -149,6 +149,10 @@
     text-transform: capitalize;
     color: var(--primary-text-main);
   }
+
+  .users-team {
+    background-color: var(--text-hero-footer);
+  }
   
   .users-team-foto {
     background: url(man-with-laptop-presenting-something.jpg);
