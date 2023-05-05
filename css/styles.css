@@ -197,23 +197,32 @@
   }
   
   /*======Портфолио======*/
-  
-  .modal-btn-portfolio-text {
-    font-weight: 600;
+
+   .modal-btn-portfolio-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
+    color: var(--accent-color);
+  }
+
+  .modal-btn-portfolio-text,
+  .modal-btn-portfolio-text {
+    
     color: var(--text-hero-footer);
+    
   }
   
   .modal-btn-portfolio {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
     color: var(--accent-color);
   }
   
