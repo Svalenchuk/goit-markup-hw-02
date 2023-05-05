@@ -247,11 +247,12 @@
   }
   
   .portfolio-img {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+    text-decoration: none;
+    background: url(4074365.jpg);
   }
   
   .portfolio-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
